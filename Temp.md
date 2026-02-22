@@ -33,3 +33,165 @@
    · Отсутствие иностранного акцента в русских партиях
    · Корректность всех тегов в квадратных скобках
    · Четкое разделение вокальных партий
+Вот полный гайд по правилам оформления промптов для Suno AI (с учетом последних версий и лучших практик):
+
+---
+
+БАЗОВЫЕ ПРАВИЛА SUNO
+
+1. СТРУКТУРНЫЕ ТЕГИ — ТОЛЬКО [ ]
+
+Для обозначения частей песни используются только квадратные скобки:
+
+```
+[Intro]
+[Verse 1]
+[Pre-Chorus]
+[Chorus]
+[Post-Chorus]
+[Bridge]
+[Guitar Solo]
+[Outro]
+[Breakdown]
+[Build-Up]
+[Drop]
+```
+
+Важно: Текст внутри [ ] не поется, это инструкция для ИИ.
+
+---
+
+2. ОПИСАТЕЛЬНЫЕ ТЕГИ
+
+Можно комбинировать внутри одних скобок через запятую:
+
+```
+[Intro, soft piano, atmospheric pads, female whisper]
+[Guitar Solo, emotional electric guitar, soaring, like a cry]
+[Bridge, stripped back, just vocals and piano]
+[Chorus, explosive, full orchestra, gospel choir]
+[Breakdown, electronic glitch, 808s, distorted vocals]
+```
+
+Правило: Описания должны быть на английском. Suno лучше понимает английские термины.
+
+---
+
+3. ВОКАЛЬНЫЕ УКАЗАНИЯ
+
+Ставятся перед текстом, который нужно спеть особым образом:
+
+```
+[Whispered] Текст который шепчут...
+[Screamed] Текст который кричат...
+[Spoken word] А это просто говорят...
+[Male vocals] Куплет поет мужчина...
+[Female vocals, powerful] Женщина поет мощно...
+[Duet, both voices] Вместе поют...
+[Harmonies] Текст с гармониями...
+[Rap delivery] А это рэп...
+```
+
+Можно комбинировать:
+
+```
+[Male vocals, emotional, tired] Наш этаж — королевство экранов и кода...
+[Female vocals, belting, powerful] Дежурные — стражи консолей и тишины...
+```
+
+---
+
+4. ЗВУКОВЫЕ ЭФФЕКТЫ
+
+```
+[crowd cheering]
+[applause]
+[vinyl crackle]
+[static noise]
+[beep sound]
+[phone ring]
+[gunshot]
+[thunder]
+[vinyl stop]
+[echo reverb]
+[beat drop]
+[silence]
+```
+
+---
+
+5. КРУГЛЫЕ СКОБКИ ( )
+
+Используются для:
+
+· Бэк-вокала (тихий второй голос)
+· Эха/повторов
+· Ад-либов (короткие вставки)
+
+```
+Ты моя звезда (моя звезда)
+Я не забуду (никогда)
+Спасибо (спасибо, спасибо...)
+```
+
+Suno воспринимает текст в ( ) как менее значимый, фоновый.
+
+---
+
+6. СТИЛЬ В НАЧАЛЕ (GENERAL STYLE)
+
+Пишется одной строкой на английском, без скобок, в самом начале промпта:
+
+Правильно:
+
+```
+GENERAL STYLE: Soulful House, Emotional Pop, Anthemic Electronic, 128 BPM, Major key, dramatic builds, male soulful tenor, female powerful gospel, piano intro, synth pads, guitar solo
+```
+
+Неправильно:
+
+```
+[GENERAL STYLE: Soulful House...]
+(стиль: поп)
+Стиль: рок с элементами...
+```
+
+---
+
+7. ЧТО SUNO ИГНОРИРУЕТ
+
+· Текст на русском внутри [ ] (если это не описание, а команда)
+· Текст после # (комментарии)
+· Лишние символы типа ~~~, *** между тегами
+· Слишком длинные описания (>200 символов в одном теге)
+
+---
+
+8. ПРИМЕР ИДЕАЛЬНОЙ СТРУКТУРЫ
+
+```
+GENERAL STYLE: J-Pop, Anime Rap, Kawaii Bass, Cyberpunk, 140 BPM, electronic beats, synth melodies, dual vocals
+
+[Intro, melodic humming with electronic distortion]
+М-м-м... Цифровой вайб...
+[Male vocals, confident, playful]
+Наш этаж — королевство экранов и кода...
+[Chorus, male melodic, clean vocals, harmonies]
+О-о-о! Восьмёрка — как бесконечность...
+[Guitar Solo, emotional electric guitar, soaring, anime style]
+[Outro, female melodic, fading, ethereal]
+Восьмёрка — повёрнутая бесконечность...
+[Whispered] Спасибо...
+```
+
+---
+
+9. ДОПОЛНИТЕЛЬНЫЕ СОВЕТЫ
+
+Что делать Что НЕ делать
+Использовать [ ] для всех инструкций Использовать ( ) для структурных тегов
+Писать описания на английском Писать "грустное пианино" внутри [ ]
+Ставить вокал-теги перед текстом Ставить вокал-теги после текста
+Делать GENERAL STYLE одной строкой Делать GENERAL STYLE в несколько строк
+Экспериментировать с комбинациями Копипастить без понимания
+----
