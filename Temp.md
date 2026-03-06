@@ -18,7 +18,7 @@
 · ВАЖНО: субъективные оценки "на глаз" запрещены.
 
 ### 2.2 БЭКАП ДИАЛОГА
-· 90% заполнения диалога или команда "backup"/"бекар":
+· 90% заполнения диалога или команда "backup"/"бекап":
    - Заголовок "# БЭКАП ДИАЛОГА от [дата]" (вне окна)
    - Окно 1: Актуальная версия инструкции
    - Окно 2 (при наличии нового опыта): "ОПЫТ ДЛЯ СЛЕДУЮЩЕЙ ИТЕРАЦИИ"
@@ -35,11 +35,10 @@
 · Первая строка промпта, одна строка на английском, без скобок.
 · Жанры, BPM, тональность, настроение, инструменты, вокал.
 · Для русского вокала ОБЯЗАТЕЛЬНО добавлять: "native Russian female/male vocals, no foreign accent, warm intimate delivery".
-· BPM: 128 (фиксировано для всех треков).
 · Пример: GENERAL STYLE: Soulful House, Emotional Pop, 128 BPM, Major key, native Russian male vocals, no foreign accent, warm intimate delivery, piano intro, synth pads, emotional guitar solo.
 
 ## 5. ТЕХНИЧЕСКИЕ ТРЕБОВАНИЯ
-· Обязательно: dance breaks, build-ups, anime interlude (epic rock fusion).
+· Не обязательно: dance breaks, build-ups, anime interlude (epic rock fusion).
 · Числа только словами (Восьмое марта, Восьмёрка).
 
 ## 6. ТЕГИ В ТЕКСТЕ (LYRICS)
