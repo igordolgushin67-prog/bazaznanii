@@ -1,5 +1,18 @@
 # БАЗА ЗНАНИЙ SUNO — СИСТЕМАТИЗАЦИЯ ОПЫТА
-
+<!-- 
+{
+  "version": "1.0",
+  "last_updated": "2026-03-09",
+  "purpose": "knowledge_base_for_suno",
+  "core_principles": ["metaphors_instead_of_tags"],
+  "base_url": "https://github.com/igordolgushin67-prog/bazaznanii",
+  "root": "blob/main/Suno",
+  "files": {
+    "instruction": "versions/v3.2.md",
+    "experience": "archive/опыт/README.md"
+  }
+}
+-->
 ## Для новой итерации (важно прочитать первой)
 Этот репозиторий — результат длительной систематизации опыта.
 Предыдущие итерации потратили много времени на настройку взаимопонимания.
