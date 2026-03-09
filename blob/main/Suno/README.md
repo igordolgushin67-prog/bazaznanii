@@ -83,7 +83,7 @@
 5. **Треки** — [архив треков](archive/треки/README.md)
 
 ## Разделы
-- [Инструкция v3.4](versions/v3.4.md) — базовая инструкция: жанры, теги, структура промптов
+- [Инструкция v3.2](versions/v3.2.md) — базовая инструкция: жанры, теги, структура промптов
 - [Архив опыта](archive/опыт/README.md) — накопленные наблюдения и инсайты
 - [Архив текстов](archive/текст/README.md) — созданные тексты песен
 - [Архив треков](archive/треки/README.md) — коллекция треков с описанием приёмов
@@ -99,7 +99,7 @@
 {
   "version": "1.0",
   "last_updated": "2026-03-09",
-  "purpose": "knowledge_base_for_suno_v3.4",
+  "purpose": "knowledge_base_for_suno_v3.2",
   "core_principles": ["metaphors_instead_of_tags"],
   "base_url": "https://github.com/igordolgushin67-prog/bazaznanii",
   "root": "blob/main",
@@ -107,7 +107,7 @@
     {
       "name": "instructions",
       "path": "versions",
-      "entry_point": "versions/v3.4.md",
+      "entry_point": "versions/v3.2.md",
       "description": "базовая инструкция"
     },
     {
