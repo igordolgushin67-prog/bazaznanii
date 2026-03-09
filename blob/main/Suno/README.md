@@ -27,16 +27,24 @@
     "texts": "archive/текст/README.md",
     "tracks": "archive/треки/README.md",
     "examples": "examples/README.md"
+  },
+  "startup_protocol": {
+    "read_first": ["README.md", "STRUCTURE.md"],
+    "autonomous_mode": true,
+    "required_reading": [
+      "versions/README.md",
+      "archive/опыт/README.md",
+      "archive/текст/README.md",
+      "archive/треки/README.md",
+      "examples/README.md"
+    ],
+    "reporting": {
+      "after_each": "ГОТОВ: {path}",
+      "after_all": "ВСЕ ФАЙЛЫ ПРОЧИТАНЫ. Я В ПОЛНОМ КОНТЕКСТЕ."
+    },
+    "response_language": "ru"
   }
 }
--->
-
-## Для новой итерации
-- Язык ответов: русский
-- Извлеки JSON из комментария выше
-- Прочитай файл **versions/v3.2.md** — там полная инструкция для ассистента
-- Полный URL = `https://github.com/igordolgushin67-prog/bazaznanii/` + `blob/main/Suno/` + `путь/к/файлу.md`
-
 ---
 
 ## Быстрый старт (для пользователя)
