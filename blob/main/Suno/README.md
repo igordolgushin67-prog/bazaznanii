@@ -7,13 +7,49 @@
 ## Навигация для человека
 
 ### Инструкции
-- [v3.4.md](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/versions/v3.4.md) — базовая инструкция: жанры, теги, структура промптов
-- [Suno/versions/](https://github.com/igordolgushin67-prog/bazaznanii/tree/main/Suno/versions) — другие версии (по мере добавления)
+blob/main/Suno/versions/v3.4.md — базовая инструкция: жанры, теги, структура промптов
+blob/main/Suno/versions/ — другие версии
 
 ### Опыт
-- [2026-03-09-principy-raboty-s-instrukciey.md](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md) — главный принцип: образы и метафоры
-- [Suno/archive/опыт/](https://github.com/igordolgushin67-prog/bazaznanii/tree/main/Suno/archive/опыт) — хронология экспериментов
+blob/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md — главный принцип: образы и метафоры
+blob/main/Suno/archive/опыт/ — хронология экспериментов
 
+### Примеры
+blob/main/Suno/examples/ — удачные промпты и тексты
+
+---
+
+## Машиночитаемая навигация
+```json
+{
+  "version": "1.0",
+  "last_updated": "2026-03-09",
+  "purpose": "knowledge_base_for_suno_v3.4",
+  "core_principles": ["metaphors_instead_of_tags"],
+  "base_url": "https://github.com/igordolgushin67-prog/bazaznanii",
+  "sections": [
+    {
+      "name": "instructions",
+      "files": [
+        {
+          "name": "v3.4.md",
+          "path": "blob/main/Suno/versions/v3.4.md",
+          "type": "instruction"
+        }
+      ]
+    },
+    {
+      "name": "experience",
+      "files": [
+        {
+          "name": "2026-03-09-principy-raboty-s-instrukciey.md",
+          "path": "blob/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md",
+          "type": "insight"
+        }
+      ]
+    }
+  ]
+}
 ### Примеры
 - [Suno/examples/](https://github.com/igordolgushin67-prog/bazaznanii/tree/main/Suno/examples) — удачные промпты и тексты (если есть)
 
