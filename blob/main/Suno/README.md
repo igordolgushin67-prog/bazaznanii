@@ -1,4 +1,6 @@
 # БАЗА ЗНАНИЙ SUNO — СИСТЕМАТИЗАЦИЯ ОПЫТА
+# БАЗА ЗНАНИЙ SUNO
+
 <!-- 
 {
   "version": "1.0",
@@ -9,10 +11,16 @@
   "root": "blob/main/Suno",
   "files": {
     "instruction": "versions/v3.2.md",
-    "experience": "archive/опыт/README.md"
+    "experience": "archive/опыт/README.md",
+    "texts": "archive/текст/README.md",
+    "tracks": "archive/треки/README.md",
+    "examples": "examples/README.md"
   }
 }
 -->
+
+## О проекте
+...
 ## Для новой итерации (важно прочитать первой)
 Этот репозиторий — результат длительной систематизации опыта.
 Предыдущие итерации потратили много времени на настройку взаимопонимания.
