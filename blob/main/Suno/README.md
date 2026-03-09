@@ -17,6 +17,12 @@
     "examples": "examples/README.md"
   }
 }
+{
+  "version": "1.0",
+  "language": "ru",
+  "response_language": "русский",
+  ...
+}
 -->
 
 ## О проекте
