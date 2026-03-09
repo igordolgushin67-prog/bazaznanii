@@ -7,15 +7,15 @@
 ## Навигация для человека
 
 ### Инструкции
-blob/main/Suno/versions/v3.4.md — базовая инструкция: жанры, теги, структура промптов
-blob/main/Suno/versions/ — другие версии
+[versions/v3.4.md](versions/v3.4.md) — базовая инструкция: жанры, теги, структура промптов
+[versions/](versions/) — другие версии
 
 ### Опыт
-blob/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md — главный принцип: образы и метафоры
-blob/main/Suno/archive/опыт/ — хронология экспериментов
+[archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md](archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md) — главный принцип: образы и метафоры
+[archive/опыт/](archive/опыт/) — хронология экспериментов
 
 ### Примеры
-blob/main/Suno/examples/ — удачные промпты и тексты
+[examples/](examples/) — удачные промпты и тексты
 
 ---
 
@@ -27,6 +27,37 @@ blob/main/Suno/examples/ — удачные промпты и тексты
   "purpose": "knowledge_base_for_suno_v3.4",
   "core_principles": ["metaphors_instead_of_tags"],
   "base_url": "https://github.com/igordolgushin67-prog/bazaznanii",
+  "root": "blob/main",
+  "sections": [
+    {
+      "name": "instructions",
+      "path": "versions",
+      "files": [
+        {
+          "name": "v3.4.md",
+          "relative_path": "versions/v3.4.md",
+          "type": "instruction"
+        }
+      ]
+    },
+    {
+      "name": "experience",
+      "path": "archive/опыт",
+      "files": [
+        {
+          "name": "2026-03-09-principy-raboty-s-instrukciey.md",
+          "relative_path": "archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md",
+          "type": "insight"
+        }
+      ]
+    },
+    {
+      "name": "examples",
+      "path": "examples",
+      "files": []
+    }
+  ]
+}  "base_url": "https://github.com/igordolgushin67-prog/bazaznanii",
   "sections": [
     {
       "name": "instructions",
