@@ -6,18 +6,18 @@
 Здесь собраны: инструкция, архив опыта, примеры промптов и текстов.
 
 ## Быстрый старт
-1. **Инструкция** — [текущая версия](Suno/versions/v3.2.md)
-2. **Опыт** — [главный принцип](Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md)
-3. **Примеры** — [архив промптов](Suno/examples/README.md)
-4. **Тексты песен** — [архив текстов](Suno/archive/текст/README.md)
-5. **Треки** — [архив треков](Suno/archive/треки/README.md)
+1. **Инструкция** — [текущая версия](versions/v3.2.md)
+2. **Опыт** — [главный принцип](archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md)
+3. **Примеры** — [архив промптов](examples/README.md)
+4. **Тексты песен** — [архив текстов](archive/текст/README.md)
+5. **Треки** — [архив треков](archive/треки/README.md)
 
 ## Разделы
-- [Инструкция v3.4](Suno/versions/v3.4.md) — базовая инструкция: жанры, теги, структура промптов
-- [Архив опыта](Suno/archive/опыт/README.md) — накопленные наблюдения и инсайты
-- [Архив текстов](Suno/archive/текст/README.md) — созданные тексты песен
-- [Архив треков](Suno/archive/треки/README.md) — коллекция треков с описанием приёмов
-- [Примеры промптов](Suno/examples/README.md) — удачные сочетания и эксперименты
+- [Инструкция v3.4](versions/v3.4.md) — базовая инструкция: жанры, теги, структура промптов
+- [Архив опыта](archive/опыт/README.md) — накопленные наблюдения и инсайты
+- [Архив текстов](archive/текст/README.md) — созданные тексты песен
+- [Архив треков](archive/треки/README.md) — коллекция треков с описанием приёмов
+- [Примеры промптов](examples/README.md) — удачные сочетания и эксперименты
 - [Структура репозитория](STRUCTURE.md) — схема папок и файлов
 
 ## Формат ссылок
@@ -35,32 +35,32 @@
   "sections": [
     {
       "name": "instructions",
-      "path": "Suno/versions",
-      "entry_point": "Suno/versions/v3.4.md",
+      "path": "versions",
+      "entry_point": "versions/v3.4.md",
       "description": "базовая инструкция"
     },
     {
       "name": "experience",
-      "path": "Suno/archive/опыт",
-      "entry_point": "Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md",
+      "path": "archive/опыт",
+      "entry_point": "archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md",
       "description": "главный принцип: метафоры"
     },
     {
       "name": "texts",
-      "path": "Suno/archive/текст",
-      "entry_point": "Suno/archive/текст/README.md",
+      "path": "archive/текст",
+      "entry_point": "archive/текст/README.md",
       "description": "архив текстов песен"
     },
     {
       "name": "tracks",
-      "path": "Suno/archive/треки",
-      "entry_point": "Suno/archive/треки/README.md",
+      "path": "archive/треки",
+      "entry_point": "archive/треки/README.md",
       "description": "архив треков"
     },
     {
       "name": "examples",
-      "path": "Suno/examples",
-      "entry_point": "Suno/examples/README.md",
+      "path": "examples",
+      "entry_point": "examples/README.md",
       "description": "примеры промптов"
     }
   ]
