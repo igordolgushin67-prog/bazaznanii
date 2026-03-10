@@ -1,0 +1,113 @@
+{
+  "version": "2.0",
+  "last_updated": "10-03-2026",
+  "purpose": "master_knowledge_base_for_suno",
+  
+  "core_principles": {
+    "main": "метафоры вместо сухих тегов",
+    "essence": "Нейросеть лучше понимает образы, чем перечисления",
+    "examples": {
+      "before": "[Sad Guitar] [Slow] [Minor]",
+      "after": [
+        "[Guitar cries like a lonely train at night]",
+        "[Slow like rain on window]",
+        "[Dark minor key of autumn evening]"
+      ]
+    }
+  },
+  
+  "instruction": {
+    "version": "3.3",
+    "sections": [
+      {
+        "id": "format",
+        "title": "ФОРМАТ ОТВЕТА",
+        "rules": [
+          "Готовые результаты в окнах с обрамлением ```",
+          "Команда 'своди' = два окна: GENERAL STYLE и LYRICS",
+          "Внутри окон только контент, без пояснений",
+          "Таблицы запрещены"
+        ]
+      },
+      {
+        "id": "general_style",
+        "title": "GENERAL STYLE",
+        "rules": [
+          "Первая строка промпта, одна строка на английском",
+          "Для русского вокала обязательно: 'native Russian vocals, no foreign accent'"
+        ],
+        "example": "GENERAL STYLE: acoustic pop, duet, warm raspy male vocals, fingerstyle guitar, 75 BPM, native Russian vocals"
+      },
+      {
+        "id": "tags",
+        "title": "ТЕГИ",
+        "structural": ["Intro", "Verse 1", "Chorus", "Bridge", "Outro"],
+        "vocal": ["[Whispered]", "[Spoken word]", "[Male vocals]"],
+        "effects": ["[Pause]", "[crowd cheering]", "[applause]"]
+      },
+      {
+        "id": "russian_vocal",
+        "title": "РУССКИЙ ВОКАЛ",
+        "rules": [
+          "native Russian vocals в GENERAL STYLE",
+          "[Style: pure Russian, warm, intimate] в Intro",
+          "Писать Ё явно: ёлка, ещё, сЁстры",
+          "Ударения ЗАГЛАВНЫМИ: гамАк, плитЫ",
+          "Фонетика: малако, щастье",
+          "Распевы через дефис: те-енИ-и-и"
+        ]
+      }
+    ]
+  },
+  
+  "repository_structure": {
+    "root": "blob/main/Suno",
+    "folders": {
+      "versions": "архив версий инструкции",
+      "archive": {
+        "текст": "тексты песен",
+        "треки": "аудиотреки",
+        "опыт": "накопленные наблюдения"
+      },
+      "examples": "примеры промптов"
+    }
+  },
+  
+  "link_formats": {
+    "relative": "папка/файл.md",
+    "short": "blob/main/Suno/папка/файл.md", 
+    "full": "https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/папка/файл.md"
+  },
+  
+  "startup_protocol": {
+    "read_first": ["README.json"],
+    "autonomous_mode": true,
+    "reporting": {
+      "after_read": "ГОТОВ: README.json",
+      "ready": "ВСЕ ФАЙЛЫ ПРОЧИТАНЫ. Я В ПОЛНОМ КОНТЕКСТЕ."
+    },
+    "response_language": "ru"
+  },
+  
+  "completion_procedure": {
+    "command": "завершаем",
+    "blocks": [
+      {
+        "type": "текст",
+        "link": "blob/main/Suno/archive/текст/ДД-ММ-ГГГГ-nazvanie.md",
+        "content": "[полный текст песни]"
+      },
+      {
+        "type": "опыт",
+        "link": "blob/main/Suno/archive/опыт/ДД-ММ-ГГГГ-nazvanie.md",
+        "content": "[новые приёмы]"
+      },
+      {
+        "type": "треки",
+        "link": "blob/main/Suno/archive/треки/ДД-ММ-ГГГГ-nazvanie.md",
+        "content": "[список треков]"
+      }
+    ],
+    "date_format": "ДД-ММ-ГГГГ"
+  }
+}
