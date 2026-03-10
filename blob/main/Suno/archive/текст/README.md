@@ -7,6 +7,8 @@
 - [2026-03-08-pesnya-dlya-rai-yubilej-70.md](2026-03-08-pesnya-dlya-rai-yubilej-70.md) - Песня для Раи на юбилей 70 лет
 - [10-03-2026-pesnya-k-8-marta-s-metaforami.md](10-03-2026-pesnya-k-8-marta-s-metaforami.md) - Песня для Родни
 - [10-03-2026-tonya-yubiley.md](10-03-2026-tonya-yubiley.md) - Песня для Антониды день рожденья
+- [10-03-2026-tonya-yubiley.md](10-03-2026-tonya-yubiley.md) - Песня для Антониды день рожденья
+- [10-03-2026-tonya-yubiley.md](10-03-2026-tonya-yubiley.md) - Песня для Антониды день рожденья
 - [10-03-2026-vsegda-v-paryade.md](10-03-2026-vsegda-v-paryade.md) - Песня Вовчику
 - [10-03-2026-Моим девченкам.md](10-03-2026-Моим девченкам.md) - Моим девченкам
 ## Как добавлять новые тексты
