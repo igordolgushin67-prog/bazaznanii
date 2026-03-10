@@ -1,0 +1,118 @@
+{
+  "filename": "2026-03-09-principy-raboty-s-instrukciey.md",
+  "title": "ГЛАВНЫЙ ПРИНЦИП И ИТОГОВЫЙ ОПЫТ ДИАЛОГА",
+  "date": "08-09.03.2026",
+  "sections": [
+    {
+      "id": 1,
+      "title": "КЛЮЧЕВОЙ ПРИНЦИП: МЕТАФОРЫ ВМЕСТО СУХИХ ТЕГОВ",
+      "content": {
+        "essence": "Нейросеть лучше понимает образы, чем перечисления.",
+        "examples": {
+          "before": "[Sad Guitar] [Slow] [Minor]",
+          "after": ["[Guitar cries like a lonely train at night]", "[Slow like rain on window]", "[Dark minor key of autumn evening]"]
+        },
+        "why_it_works": "Сухие теги — инструкция. Образы — вдохновение.",
+        "comparison": "В DALL-E тоже лучше работают не перечисления, а описание сцены.",
+        "conclusion": "Бери структуру из инструкции. Наполняй образами из опыта."
+      }
+    },
+    {
+      "id": 2,
+      "title": "СТРУКТУРА РЕПОЗИТОРИЯ",
+      "rules": [
+        "Главный README.md ссылается только на папки (versions/, archive/, examples/)",
+        "В каждой папке свой README.md со списком файлов",
+        "При добавлении нового файла обновляется только README в своей папке"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "ФОРМАТ ССЫЛОК (три уровня)",
+      "levels": [
+        {
+          "level": "внутри README",
+          "format": "папка/файл.md",
+          "example": "archive/опыт/2026-03-09-itogovy-opyt.md"
+        },
+        {
+          "level": "короткий (копировать)",
+          "format": "blob/main/Suno/папка/файл.md",
+          "example": "blob/main/Suno/archive/опыт/2026-03-09-itogovy-opyt.md"
+        },
+        {
+          "level": "полный (браузер)",
+          "format": "https://github.com/.../blob/main/Suno/папка/файл.md",
+          "example": "https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/archive/опыт/2026-03-09-itogovy-opyt.md"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "ЗАВЕРШЕНИЕ ИТЕРАЦИИ",
+      "command": "завершаем",
+      "blocks": [
+        {
+          "type": "текст",
+          "link": "blob/main/Suno/archive/текст/2026-03-09-nazvanie.md",
+          "content": "[полный текст песни]"
+        },
+        {
+          "type": "опыт",
+          "link": "blob/main/Suno/archive/опыт/2026-03-09-nazvanie.md",
+          "content": "[новые приёмы, уточнения, исправления]"
+        },
+        {
+          "type": "треки",
+          "link": "blob/main/Suno/archive/треки/2026-03-09-nazvanie.md",
+          "content": "[список новых треков с описанием приёмов]"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "ВАЖНЫЕ ТЕХНИЧЕСКИЕ УТОЧНЕНИЯ",
+      "rules": {
+        "vocal_commands": {
+          "command": "[Whispered] Текст... — команда спеть шёпотом",
+          "text": "\"тихий шёпот в небесах\" — обычный текст для пения"
+        },
+        "letter_yo": "Критична. Писать явно: ёлка, ещё, моё, твоё, сЁстры",
+        "stress": "Только ЗАГЛАВНЫМИ буквами: гамАк, плитЫ, ворОтит, принЯть",
+        "vocals_extends": "Через дефис: те-енИ-и-и, Спасибоооо, (ля-ля-ля)",
+        "phonetic": "Пиши, как слышишь: малако, щастье"
+      }
+    },
+    {
+      "id": 6,
+      "title": "НОВЫЕ ФАЙЛЫ, СОЗДАННЫЕ В ДИАЛОГЕ",
+      "files": [
+        "Suno/STRUCTURE.md",
+        "Suno/archive/опыт/2026-03-08-struktura-arkhivov.md",
+        "Suno/archive/опыт/2026-03-09-itogovy-opyt.md"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "ОЦЕНКА ОБЪЁМА ДИАЛОГА",
+      "stats": {
+        "messages": "~500",
+        "words": "~375 000",
+        "note": "Диалог работает за счёт сжатия токенов",
+        "recommendation": "Рекомендуется начать новый диалог со ссылкой на репозиторий"
+      }
+    },
+    {
+      "id": 8,
+      "title": "ДЛЯ СЛЕДУЮЩЕЙ ИТЕРАЦИИ",
+      "instructions": [
+        "Получить ссылку: https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/README.md",
+        "Извлечь JSON из комментария в начале",
+        "Прочитать файл versions/v3.2.md — там полная инструкция для ассистента",
+        "Язык ответов: русский",
+        "Использовать три уровня ссылок при выдаче результатов",
+        "При команде 'завершаем' формировать три блока в отдельных окнах"
+      ]
+    }
+  ]
+}
