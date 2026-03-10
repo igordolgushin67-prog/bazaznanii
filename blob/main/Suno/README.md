@@ -37,7 +37,7 @@
 
 | Раздел | Короткая ссылка | Полная ссылка |
 |--------|-----------------|---------------|
-| 📘 Инструкция | `blob/main/Suno/versions/v3.3.md` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/versions/v3.3.md) |
+| 📘 Инструкция (JSON) | `blob/main/Suno/versions/v3.3.json` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/versions/v3.3.json) |
 | 💡 Главный принцип | `blob/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md) |
 | 📝 Архив текстов | `blob/main/Suno/archive/текст/README.md` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/archive/текст/README.md) |
 | 🎵 Архив треков | `blob/main/Suno/archive/треки/README.md` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/archive/треки/README.md) |
