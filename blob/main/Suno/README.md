@@ -35,13 +35,13 @@
 
 # БАЗА ЗНАНИЙ SUNO
 
-| Раздел | Короткая ссылка | Полная ссылка |
-|--------|-----------------|---------------|
-| 📘 Инструкция (JSON) | `blob/main/Suno/versions/v3.3.json` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/versions/v3.3.json) |
-| 💡 Главный принцип (JSON) | `blob/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.json` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.json) |
-| 📝 Архив текстов | `blob/main/Suno/archive/текст/README.md` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/archive/текст/README.md) |
-| 🎵 Архив треков | `blob/main/Suno/archive/треки/README.md` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/archive/треки/README.md) |
-| ✨ Примеры промптов | `blob/main/Suno/examples/README.md` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/examples/README.md) |
-| 📂 Структура проекта | `blob/main/Suno/STRUCTURE.md` | [ссылка](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/STRUCTURE.md) |
+| Раздел | Ссылка |
+|--------|--------|
+| 📘 Инструкция (JSON) | [versions/v3.3.json](versions/v3.3.json) |
+| 💡 Главный принцип (JSON) | [archive/опыт/2026-03-09-principy-raboty-s-instrukciey.json](archive/опыт/2026-03-09-principy-raboty-s-instrukciey.json) |
+| 📝 Архив текстов | [archive/текст/README.md](archive/текст/README.md) |
+| 🎵 Архив треков | [archive/треки/README.md](archive/треки/README.md) |
+| ✨ Примеры промптов | [examples/README.md](examples/README.md) |
+| 📂 Структура проекта | [STRUCTURE.md](STRUCTURE.md) |
 
-**Главный принцип:** метафоры вместо сухих тегов. Подробнее — в [JSON-версии](https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.json).
+**Главный принцип:** метафоры вместо сухих тегов. Подробнее — в [JSON-версии](archive/опыт/2026-03-09-principy-raboty-s-instrukciey.json).
