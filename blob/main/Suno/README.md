@@ -18,7 +18,7 @@
     "read_first": ["README.md", "STRUCTURE.md"],
     "autonomous_mode": true,
     "required_reading": [
-      "versions/v3.3.md",
+      "versions/v3.3.json",
       "archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md",
       "archive/текст/README.md",
       "archive/треки/README.md",
