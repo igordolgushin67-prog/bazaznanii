@@ -1,7 +1,7 @@
 [ТРЕКИ]
 Дата: 10-03-2026
 Исполнитель: Владимир
-Название: Всегда в паряде
+Название: 
 [Всегда в паряде](https://suno.com/song/5bed21ee-0b8f-4c87-8ebc-bc235dbf9db4?sh=o1iMHMe5AlDvAS4H)
 
 Жанр: Emotional Russian Rap
