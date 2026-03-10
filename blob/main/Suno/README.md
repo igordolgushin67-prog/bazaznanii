@@ -7,19 +7,19 @@
   "base_url": "https://github.com/igordolgushin67-prog/bazaznanii",
   "root": "blob/main/Suno",
   "files": {
-    "instruction": "versions/v3.3.md",
     "instruction_json": "versions/v3.3.json",
-    "experience": "archive/опыт/README.md",
-    "texts": "archive/текст/README.md",
-    "tracks": "archive/треки/README.md",
-    "examples": "examples/README.md"
+    "experience_index": "archive/опыт/README.md",
+    "texts_index": "archive/текст/README.md",
+    "tracks_index": "archive/треки/README.md",
+    "examples_index": "examples/README.md",
+    "structure": "STRUCTURE.md"
   },
   "startup_protocol": {
     "read_first": ["README.md", "STRUCTURE.md"],
     "autonomous_mode": true,
     "required_reading": [
       "versions/v3.3.md",
-      "archive/опыт/README.md",
+      "archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md",
       "archive/текст/README.md",
       "archive/треки/README.md",
       "examples/README.md"
