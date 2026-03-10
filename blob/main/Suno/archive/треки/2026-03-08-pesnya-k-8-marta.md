@@ -12,6 +12,7 @@
 
 ## Промпт
 Ссылка на файл с текстом: `blob/main/Suno/archive/текст/2026-03-08-pesnya-k-8-marta.md`
-
+blob/main/Suno/archive/текст/10-03-2026-pesnya-k-8-marta-s-metaforami.md
+[← К корневому README](../README.md) | [← Текст](../текст/10-03-2026-pesnya-k-8-marta-s-metaforami.md)
 ## Дата создания
 2026-03-08
