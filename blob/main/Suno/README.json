@@ -1,5 +1,5 @@
 {
-  "version": "2.0",
+  "version": "2.1",
   "last_updated": "10-03-2026",
   "purpose": "master_knowledge_base_for_suno",
   
@@ -17,7 +17,7 @@
   },
   
   "instruction": {
-    "version": "3.3",
+    "version": "3.4",
     "sections": [
       {
         "id": "format",
@@ -35,6 +35,157 @@
         "rules": [
           "Первая строка промпта, одна строка на английском",
           "Для русского вокала обязательно: 'native Russian vocals, no foreign accent'"
+        ],
+        "example": "GENERAL STYLE: acoustic pop, duet, warm raspy male vocals, fingerstyle guitar, 75 BPM, native Russian vocals"
+      },
+      {
+        "id": "russian_vocal",
+        "title": "РУССКИЙ ВОКАЛ",
+        "rules": [
+          "native Russian vocals в GENERAL STYLE",
+          "[Style: pure Russian, warm, intimate] в Intro",
+          "Писать Ё явно: ёлка, ещё, сЁстры",
+          "Ударения ЗАГЛАВНЫМИ: гамАк, плитЫ",
+          "Фонетика: малако, щастье",
+          "Распевы через дефис: те-енИ-и-и"
+        ]
+      },
+      {
+        "id": "rhythm_guidelines",
+        "title": "РИТМ И ДЛИНА СТРОК",
+        "rules": [
+          "Для spoken word оптимальная длина строки: 4–6 слов",
+          "Для 55 BPM — максимум 7 слов на строку, иначе чтец будет торопиться",
+          "Паузы обозначаются многоточием ... внутри строки",
+          "Пустые строки между секциями усиливают драматургическую паузу"
+        ]
+      },
+      {
+        "id": "instrumental_roles",
+        "title": "РОЛИ ИНСТРУМЕНТОВ",
+        "rules": [
+          "[fill] — короткая инструментальная фраза между вокальными строками",
+          "[solo] — развёрнутая инструментальная секция (например, Saxophone Solo)",
+          "[pad] — длинные аккорды на заднем плане (long sustains)"
+        ]
+      },
+      {
+        "id": "vocalizations",
+        "title": "ВОКАЛИЗЫ (ММММ)",
+        "rules": [
+          "Используются как эмоциональная связка и эстафета инструменту",
+          "Ставятся после ключевых фраз, перед инструментальными секциями",
+          "Длина варьируется: короткие (5-7 'м') после куплетов, длинные (10-15) перед соло",
+          "В тексте писать: Ммммммммммммммммммм (без пробелов)"
+        ]
+      },
+      {
+        "id": "tags",
+        "title": "ТЕГИ",
+        "structural": ["[Intro]", "[Verse 1]", "[Chorus]", "[Bridge]", "[Saxophone Solo]", "[Outro]", "[Ending]"],
+        "vocal": ["[Whispered]", "[Spoken word]", "[Male vocals]", "[Spoken Verse]", "[Spoken Chorus]"],
+        "effects": ["[Pause]", "[Sighs]", "(breath)", "(soft piano)", "(sax fill)"],
+        "instrumental_actions": ["[Saxophone Solo]", "[Interlude]", "[Ending]"]
+      },
+      {
+        "id": "troubleshooting",
+        "title": "ЧТО ДЕЛАТЬ, ЕСЛИ SUNO НЕ СЛУШАЕТСЯ",
+        "rules": [
+          "Если добавляет drums → усилить 'No Drums' в стиле, добавить 'percussion: none'",
+          "Если саксофон слишком быстрый → добавить 'slow-burning', 'breathy', 'ballad'",
+          "Если голос не интимный → использовать [Whispered], 'close-mic', 'conversational'",
+          "Если игнорирует метки в тексте → сократить описание, оставить только ключевые [Verse], [Solo]"
+        ]
+      }
+    ]
+  },
+  
+  "repository_structure": {
+    "root": "blob/main/Suno",
+    "folders": {
+      "versions": "архив версий инструкции",
+      "archive": {
+        "текст": "тексты песен (финальные версии)",
+        "треки": "аудиотреки (ссылки Suno)",
+        "опыт": "накопленные наблюдения и приёмы",
+        "неудачи": "что не сработало и почему",
+        "эмоции": "эмоциональная карта трека по секциям",
+        "версии": "промежуточные версии текста (для истории правок)"
+      },
+      "examples": "примеры промптов"
+    }
+  },
+  
+  "link_formats": {
+    "relative": "папка/файл.md",
+    "short": "blob/main/Suno/папка/файл.md", 
+    "full": "https://github.com/igordolgushin67-prog/bazaznanii/blob/main/Suno/папка/файл.md"
+  },
+  
+  "startup_protocol": {
+    "read_first": ["README.json"],
+    "autonomous_mode": true,
+    "reporting": {
+      "after_read": "ГОТОВ: README.json",
+      "ready": "ВСЕ ФАЙЛЫ ПРОЧИТАНЫ. Я В ПОЛНОМ КОНТЕКСТЕ.",
+      "final_command": "Готов"
+    },
+    "response_language": "ru"
+  },
+  
+  "completion_procedure": {
+    "command": "завершаем",
+    "blocks": [
+      {
+        "type": "текст",
+        "link": "blob/main/Suno/archive/текст/ДД-ММ-ГГГГ-nazvanie.md",
+        "content": "[полный текст песни]"
+      },
+      {
+        "type": "опыт",
+        "link": "blob/main/Suno/archive/опыт/ДД-ММ-ГГГГ-nazvanie.md",
+        "content": "[новые приёмы, удачные находки]"
+      },
+      {
+        "type": "неудачи",
+        "link": "blob/main/Suno/archive/неудачи/ДД-ММ-ГГГГ-nazvanie.md",
+        "content": "[что пробовали и отвергли, причины]"
+      },
+      {
+        "type": "эмоции",
+        "link": "blob/main/Suno/archive/эмоции/ДД-ММ-ГГГГ-nazvanie.md",
+        "content": "[эмоциональная карта по секциям: Verse1 — ностальгия, Chorus — свет, Bridge — боль и т.д.]"
+      },
+      {
+        "type": "версии",
+        "link": "blob/main/Suno/archive/версии/ДД-ММ-ГГГГ-nazvanie.md",
+        "content": "[ключевые промежуточные версии текста с комментариями]"
+      },
+      {
+        "type": "треки",
+        "link": "blob/main/Suno/archive/треки/ДД-ММ-ГГГГ-nazvanie.md",
+        "content": "[список треков, включая референсы: ссылки на удачные генерации]"
+      }
+    ],
+    "date_format": "ДД-ММ-ГГГГ"
+  },
+  
+  "advanced_techniques": {
+    "rhythm_control": {
+      "spoken_word_length": "4-6 слов, паузы через ...",
+      "bpm_mapping": "55 BPM → строки до 7 слов"
+    },
+    "instrumental_dynamics": {
+      "fill": "саксофон между фразами",
+      "solo": "отдельная секция с меткой [Saxophone Solo]",
+      "pad": "пианино long sustains"
+    },
+    "vocalizations": {
+      "mm_purpose": "эстафета инструменту, длина варьируется",
+      "placement": "после ключевых фраз, перед соло"
+    }
+  }
+}          "Для русского вокала обязательно: 'native Russian vocals, no foreign accent'"
         ],
         "example": "GENERAL STYLE: acoustic pop, duet, warm raspy male vocals, fingerstyle guitar, 75 BPM, native Russian vocals"
       },
