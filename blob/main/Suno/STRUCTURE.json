@@ -1,0 +1,89 @@
+{
+  "v": "1.0",
+  "upd": "12-03-2026",
+  "description": "Актуальная структура базы знаний Suno (динамическая карта)",
+  "root_raw": "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/",
+  "dirs": {
+    "versions": {
+      "path": "versions/",
+      "description": "Архив версий инструкции",
+      "readme": "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/versions/README.md",
+      "files": [
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/versions/v3.0.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/versions/v3.1.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/versions/v3.2.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/versions/v3.3.json",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/versions/v3.3.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/versions/v3.4.md"
+      ]
+    },
+    "library": {
+      "path": "library/",
+      "description": "Библиотека приёмов",
+      "readme": "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/README.md",
+      "files": [
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/01-atmospheric-intro.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/02-spoken-word.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/03-chords-harmony.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/04-dynamic-arc.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/05-claps-percussion.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/06-vocals-adlibs.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/07-call-response.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/08-combined-tags.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/09-minimalism.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/10-instrumental-timing.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/11-specific-instruments.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/12-detailed-outro.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/13-multilingual.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/14-quoting.md",
+        "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/library/15-female-male-backing.md"
+      ]
+    },
+    "archive": {
+      "text": {
+        "path": "archive/текст/",
+        "description": "Финальные тексты песен",
+        "readme": "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/текст/README.md",
+        "files": [
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/текст/10-03-2026-pesnya-k-8-marta-s-metaforami.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/текст/10-03-2026-tonya-yubiley.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/текст/10-03-2026-vsegda-v-paryade.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/текст/10-03-2026-Моим_девченкам.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/текст/2026-03-08-pesnya-8-marta.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/текст/2026-03-08-pesnya-dlya-rai-yubilej-70.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/текст/Колыбельная_для_Авроры"
+        ]
+      },
+      "opyt": {
+        "path": "archive/опыт/",
+        "description": "Накопленные наблюдения и приёмы",
+        "readme": "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/опыт/README.md",
+        "files": [
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/опыт/10-03-2026-pesnya-k-8-marta-s-metaforami.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/опыт/10-03-2026-tonya-tekhniki.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/опыт/10-03-2026-vsegda-v-paryade.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/опыт/2026-03-08-opyt-sozdaniya-pesni-dlya-rai.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/опыт/2026-03-08-pesnya-k-8-marta.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/опыт/2026-03-08-spoken-word-utochnenie.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/опыт/2026-03-09-itogovy-opyt.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.json",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/опыт/2026-03-09-principy-raboty-s-instrukciey.md"
+        ]
+      },
+      "tracks": {
+        "path": "archive/треки/",
+        "description": "Ссылки на сгенерированные треки",
+        "readme": "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/треки/README.md",
+        "files": [
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/треки/10-03-2026-pesnya-k-8-marta-s-metaforami.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/треки/10-03-2026-tonya-treki.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/треки/10-03-2026-vsegda-v-paryade.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/треки/2026-03-08-full-list.md",
+          "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/archive/треки/2026-03-08-pesnya-k-8-marta.md"
+        ]
+      }
+    }
+  },
+  "links_dialogs": "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/LINKS_dialogs.md",
+  "principles": "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/PRINCIPLES_v4.0.json"
+}
