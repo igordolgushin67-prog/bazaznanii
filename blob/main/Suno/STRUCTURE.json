@@ -1,6 +1,6 @@
 {
   "v": "1.0",
-  "upd": "12-03-2026",
+  "upd": "13-03-2026",
   "description": "Актуальная структура базы знаний Suno (динамическая карта) — исправлены пути",
   "root_raw": "https://raw.githubusercontent.com/igordolgushin67-prog/bazaznanii/refs/heads/main/Suno/",
   "dirs": {
